@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+
+.header .logoimg{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.header .logoimg:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 20;
+    color: black;
+    text-decoration: none;
+    color: 363636;
+    padding: 9px 25px;
+    background-color: CCA43B;
+    border: none;
+    border-radius: 20px;
+
+}
+.header .nav-links li a:hover{
+    color: brown;
+}
+
+.header .boton-contacto button{
+    font-weight: 700;
+    color: azure;
+    padding: 9px 25px;
+    background: rebeccapurple;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.header .boton-contacto button:hover{
+    background-color: antiquewhite;
+    color: darkgoldenrod;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.parte1{
+    background-color: E5E5E5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 300%;
+    
+}
+
+
+.img{
+    width: 100%;
+    display: inline-block;
+    padding: 100px;
+
+
+}
+.btn {
+    font-weight: 800;
+    color: 363636;
+    padding: 9px 25px;
+    background-color: CCA43B;
+    border: none;
+    border-radius: 50px;
+    display: block;
+    
+}
+
+.btn{
+    text-decoration: none;
+
+}
+.links .btn:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+
+.parte2{
+    background-color: 363636;
+}
+
+.informacion{
+width: 100%;
+height: 100%;
+}
+.texto-info{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 250%;
+    color: wheat;
+    padding: 300px;
+    padding-top: 350px;
+}
+
+li{
+    padding-left: 50px;
+}
